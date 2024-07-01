@@ -4,9 +4,9 @@ const corsOptions={
       credentials: true,
 }
 
-// export const CHATIFY_TOKEN="chatify"
+export const CHATIFY_TOKEN="chatify"
 
-// export {corsOptions}
+export {corsOptions}
 
 // const corsOptions={
 //   origin: [
