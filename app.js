@@ -159,8 +159,14 @@ io.on("connection",(socket)=>{
 
 app.use(errorMiddleware)
 
-server.listen(port,()=>{
-    console.log(`server is running on port ${3000}`)
+// server.listen(port,()=>{
+//     console.log(`server is running on port ${3000}`)
+// })
+
+app.listen(port,()=>{
+  console.log(`server is running on port ${3000}`)
 })
+
+io.listen(9000)
 
 export {userSocketIDs}
