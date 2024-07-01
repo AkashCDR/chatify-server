@@ -2,6 +2,7 @@ const corsOptions={
       origin: "*",
       methods: ["GET", "POST", "PUT", "DELETE"],
       credentials: true,
+      optionSuccessStatus:200,
 }
 
 export const CHATIFY_TOKEN="chatify"
